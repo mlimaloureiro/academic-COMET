@@ -92,7 +92,7 @@ class Listener implements Runnable {
 						}
 					}
 					else if(resposta.equals("denied")){
-						System.out.println("Password errada!! Autentifique-se novamente.");
+						System.out.println("Password errada!! Autenticar novamente.");
 						Cliente.loginOK = false;
 						synchronized(Cliente.sinc) { 
 							Cliente.sinc.notify();
